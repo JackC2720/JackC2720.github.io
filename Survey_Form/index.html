@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>SurveyForm</title>
+  </head>
+  <body>
+    <div id="bg-img" style="background-image: url('Desk.jpg');">
+    <div id="container">
+      <h1 id="title">Survey form</h1>
+      <h2 id="description">This is a survey form</h2>
+
+          <form id="survey-form">
+            <div class="form-group">
+              <label id="name-label" for="name">Name</label><br>
+              <input placeholder="Enter your name" id="name" type="text" name="name" value="" required>
+            </div>
+            <br>
+            <div class="form-group">
+              <label id="email-label" for="email">Email</label><br>
+              <input placeholder="Enter your email" id="email" type="email" name="email" value="" required>
+            </div>
+            <br>
+            <div class="form-group">
+              <label id="number-label" for="number">Age (optional)<label><br>
+              <input type="number" name="age" value="" placeholder="Enter your age" id="number" min="0" max="99">
+            </div>
+            <div class="form-group">
+              <p>This is a dropdown:</p>
+              <select id="dropdown" name="dropdown" required>
+                <option disable selected value>Please choose</option>
+                <option value="1">Choose this one</option>
+                <option value="2">Or this one</option>
+                <option value="3">Or maybe this one</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <p>Would you reccomend this form to a friend?</p>
+              <label>
+                <input type="radio" name="recommend" value="yeah" class="radio-input">
+                Yeah
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="recommend" value="definatly" class="radio-input">
+                Definatly
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="recommend" value="sure" class="radio-input">
+                Sure
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="recommend" value="yes" class="radio-input">
+                Yes
+              </label>
+            </div>
+            <div class="form-group">
+              <p>Which of these would you like in a christmas tin?</p>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="mars bar">
+                Mars bar
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="green triangle">
+                Those nice green triangles from quality street
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="malteaser">
+                Malteaser
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="snickers">
+                Snickers
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="galaxy">
+                Galaxy
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="choc orange">
+                Mini Chocolate oranges
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="yorkie">
+                Yorkie
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="bueno">
+                Kinder bueno
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="lint">
+                Lint
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="kit kat">
+                Kit kat
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="choc" class="checkboxes" value="m&m">
+                A big M&M
+              </label>
+            </div>
+            <div class="form-group">
+              <p>Is there anything you'd add to this form?</p>
+              <textarea id="comments" name="comments" rows="6" cols="35" placeholder="Enter your comments here"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="submit">Submit</button>
+            </div>
+          </form>
+    </div>
+  </body>
+</html>

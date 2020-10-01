@@ -1,0 +1,100 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: rgba(190, 168, 167, 0.8);
+  font-weight: bold;
+  color: white;
+}
+::placeholder {
+  color: white;
+    font-weight: bold;
+}
+input {
+  color: white);
+  font-weight: bold;
+}
+#bg-img {
+  width: auto;
+  height:100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#title {
+font-size: 30px;
+padding-top: 30px;
+margin-bottom: 0px;
+color: rgb(103, 93, 93);
+}
+#description {
+font-size: 20px;
+margin-top: 5px;
+color: rgb(103, 93, 93);
+}
+#container {
+
+}
+#name, #email, #number{
+width: 60%;
+height: 30px;
+border-radius: 5px;
+line-height: 4px;
+background-color: rgba(190, 168, 167, 0.8);
+font-family: 'Montserrat', sans-serif;
+border-color: rgba(190, 168, 167, 0.2);
+}
+.form-group {
+padding-left: 50px;
+line-height: 1.5;
+text-align: left;
+
+}
+.radio-input {
+
+}
+.checkboxes {
+background-color: rgba(190, 168, 167, 0.3);
+}
+#comments {
+background-color: rgba(190, 168, 167, 0.8);
+border-radius: 10px;
+font-size: 15px;
+padding-left: 4px;
+padding-top: 4px;
+margin-bottom: 40px;
+font-family: 'Montserrat', sans-serif;
+border-color: rgba(190, 168, 167, 0.4);
+}
+#submit {
+width: 30%;
+height: 30px;
+border-radius: 5px;
+background-color: rgba(190, 168, 167, 0.8);
+color: white;
+margin-left: 65%;
+margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+border-color: rgba(190, 168, 167, 0.2);
+  font-weight: bold;
+}
+#dropdown {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(190, 168, 167, 0.8);
+    color: white;
+  font-family: 'Montserrat', sans-serif;
+  border-color: rgba(190, 168, 167, 0.4);
+    font-weight: bold;
+}
+form {
+  background-color: rgba(190, 168, 167, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60%;
+  height: auto;
+  border-radius: 15px;
+  margin: auto;
+
+}
