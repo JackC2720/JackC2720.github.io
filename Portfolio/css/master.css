@@ -159,3 +159,18 @@ transition-duration: 1s;
   text-decoration: underline;
   text-decoration-color: rgb(205, 195, 146);
 }
+
+
+/* ------- MEDIA QUERIES --------- */
+
+@media (max-width: 750px) {
+.nav-items {
+  font-size: 3.5vh;
+}
+.tile-text {
+  font-size: 3.5vh;
+}
+.project-tile {
+  height: 25vh;
+}
+}
